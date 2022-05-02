@@ -1,0 +1,36 @@
+#contenedor {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondomath.jpg);
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 70vw;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: 10vh;
+    text-align: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.formulario {
+    font-family: 'Roboto Mono', monospace;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.cajatexto {
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+.cajatexto:focus {
+    outline: none;
+}
+
+.boton {
+    border-radius: 5px;
+    border: none;
+}
+.boton:hover {
+    transition: .5s;
+    background-color: #7066e0;
+}
